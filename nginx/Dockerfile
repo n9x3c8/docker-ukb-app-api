@@ -1,3 +1,3 @@
-FROM nginx:1.19-alpine 
+FROM nginx:latest
 ADD ./nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf
 RUN mkdir -p /var/www/html
